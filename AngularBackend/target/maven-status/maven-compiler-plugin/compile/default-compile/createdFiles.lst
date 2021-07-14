@@ -1,0 +1,8 @@
+com\jbk\controller\HomeController.class
+com\jbk\AngularBackend\AngularBackendApplication.class
+com\jbk\service\UserService_i.class
+com\jbk\dao\UserDao_i.class
+com\jbk\dao\UserDao_impl.class
+com\jbk\entity\Register.class
+com\jbk\configuration\HibernateConfiguration.class
+com\jbk\service\UserService_impl.class
