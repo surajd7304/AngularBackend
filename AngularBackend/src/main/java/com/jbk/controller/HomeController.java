@@ -20,6 +20,7 @@ public class HomeController {
 	public JSONObject loginCheck(@RequestBody Register register) {
 		
 		System.out.println(register.getUsername());
+		System.out.println(register.getPassword());
 	
 		JSONObject object= service.loginCheck(register);
 		return object;
