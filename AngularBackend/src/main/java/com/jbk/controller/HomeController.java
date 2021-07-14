@@ -21,6 +21,7 @@ public class HomeController {
 		
 		System.out.println(register.getUsername());
 		System.out.println(register.getPassword());
+		System.out.println(register.getUsername() +" "+ register.getPassword());
 	
 		JSONObject object= service.loginCheck(register);
 		return object;
