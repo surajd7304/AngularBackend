@@ -19,6 +19,8 @@ public class HomeController {
 	@GetMapping(value = "/logincheck")
 	public JSONObject loginCheck(@RequestBody Register register) {
 		
+		System.out.println(register.getUsername());
+	
 		JSONObject object= service.loginCheck(register);
 		return object;
 		
